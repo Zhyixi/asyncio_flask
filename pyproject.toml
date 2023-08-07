@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "bom-backend"
+version = "0.1.0"
+description = ""
+authors = ["ur08366 <Yihsiang_Chang@walsin.com>"]
+readme = "README.md"
+packages = [{include = "bom_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "2.2.5"
+blinker = "1.5"
+quart = "0.18.4"
+python-dotenv = "^1.0.0"
+pandas = "^2.0.3"
+numpy = "^1.25.1"
+fastapi = "^0.100.0"
+uvicorn = "^0.22.0"
+fastapi-sessions = "^0.3.2"
+python-multipart = "^0.0.6"
+psutil = "^5.9.5"
+xlwings = "^0.30.10"
+apscheduler = "^3.10.1"
+aiocron = "^1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
